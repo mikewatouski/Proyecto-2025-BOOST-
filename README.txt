@@ -5,7 +5,7 @@ PROYECTO: BOOST – Entrenador personal virtual
 - frontend/ → app en React
 - mocks/, docs/ → carpetas de apoyo
 
-▶️ Cómo correr el proyecto:
+▶️ Cómo correr el proyecto:a
 
 1. Terminal 1 – Backend
 cd backend
