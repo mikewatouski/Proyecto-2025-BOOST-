@@ -23,3 +23,5 @@ npm start
 El frontend se conecta al backend y muestra un mensaje de prueba ("Hola desde la API").
 
 💡 Esto demuestra que la base del proyecto está funcionando correctamente y puede escalarse con rutinas, login, etc.
+
+f
