@@ -5,10 +5,11 @@ function App() {
   const [mensaje, setMensaje] = useState('');
 
   useEffect(() => {
-    axios.get('http://localhost:3001/mensaje')
-      .then(res => setMensaje(res.data[0].texto))
-      .catch(err => console.error("Error:", err));
-  }, []);
+  axios.get('https://tu-backend.onrender.com/mensaje')
+    .then(res => setMensaje(res.data[0].texto))
+    .catch(err => console.error("Error:", err));
+}, []);
+
 
   return (
     <div>
