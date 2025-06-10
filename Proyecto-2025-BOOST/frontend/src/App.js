@@ -1,19 +1,17 @@
 import React, { useEffect, useState } from 'react';
-import axios from 'axios';
 
 function App() {
   const [mensaje, setMensaje] = useState('');
 
   useEffect(() => {
-  axios.get('https://tu-backend.onrender.com/mensaje')
-    .then(res => setMensaje(res.data[0].texto))
-    .catch(err => console.error("Error:", err));
-}, []);
-
+    // Simulación de mensaje para testeo en Vercel
+    setMensaje("¡Hola desde Boost en Vercel!");
+  }, []);
 
   return (
-    <div>
+    <div style={{ padding: '20px', textAlign: 'center' }}>
       <h1>{mensaje}</h1>
+      <p>Esto es el frontend funcionando correctamente.</p>
     </div>
   );
 }
